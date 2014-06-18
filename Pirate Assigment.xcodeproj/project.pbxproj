@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8E9DAB1951F58500C78DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAA1951F58500C78DAF /* Foundation.framework */; };
+		CD8E9DAD1951F58500C78DAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAC1951F58500C78DAF /* CoreGraphics.framework */; };
+		CD8E9DAF1951F58500C78DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAE1951F58500C78DAF /* UIKit.framework */; };
+		CD8E9DB51951F58500C78DAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8E9DB31951F58500C78DAF /* InfoPlist.strings */; };
+		CD8E9DB71951F58500C78DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DB61951F58500C78DAF /* main.m */; };
+		CD8E9DBB1951F58500C78DAF /* LRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DBA1951F58500C78DAF /* LRMAppDelegate.m */; };
+		CD8E9DBE1951F58500C78DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD8E9DBC1951F58500C78DAF /* Main.storyboard */; };
+		CD8E9DC11951F58500C78DAF /* LRMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DC01951F58500C78DAF /* LRMViewController.m */; };
+		CD8E9DC31951F58500C78DAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8E9DC21951F58500C78DAF /* Images.xcassets */; };
+		CD8E9DCA1951F58500C78DAF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DC91951F58500C78DAF /* XCTest.framework */; };
+		CD8E9DCB1951F58500C78DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAA1951F58500C78DAF /* Foundation.framework */; };
+		CD8E9DCC1951F58500C78DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAE1951F58500C78DAF /* UIKit.framework */; };
+		CD8E9DD41951F58500C78DAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8E9DD21951F58500C78DAF /* InfoPlist.strings */; };
+		CD8E9DD61951F58500C78DAF /* Pirate_AssigmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DD51951F58500C78DAF /* Pirate_AssigmentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8E9DCD1951F58500C78DAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8E9D9F1951F58500C78DAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8E9DA61951F58500C78DAF;
+			remoteInfo = "Pirate Assigment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8E9DA71951F58500C78DAF /* Pirate Assigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Assigment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8E9DAA1951F58500C78DAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD8E9DAC1951F58500C78DAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD8E9DAE1951F58500C78DAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD8E9DB21951F58500C78DAF /* Pirate Assigment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate Assigment-Info.plist"; sourceTree = "<group>"; };
+		CD8E9DB41951F58500C78DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8E9DB61951F58500C78DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD8E9DB81951F58500C78DAF /* Pirate Assigment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pirate Assigment-Prefix.pch"; sourceTree = "<group>"; };
+		CD8E9DB91951F58500C78DAF /* LRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRMAppDelegate.h; sourceTree = "<group>"; };
+		CD8E9DBA1951F58500C78DAF /* LRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRMAppDelegate.m; sourceTree = "<group>"; };
+		CD8E9DBD1951F58500C78DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD8E9DBF1951F58500C78DAF /* LRMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRMViewController.h; sourceTree = "<group>"; };
+		CD8E9DC01951F58500C78DAF /* LRMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRMViewController.m; sourceTree = "<group>"; };
+		CD8E9DC21951F58500C78DAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD8E9DC81951F58500C78DAF /* Pirate AssigmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate AssigmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8E9DC91951F58500C78DAF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD8E9DD11951F58500C78DAF /* Pirate AssigmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AssigmentTests-Info.plist"; sourceTree = "<group>"; };
+		CD8E9DD31951F58500C78DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD8E9DD51951F58500C78DAF /* Pirate_AssigmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AssigmentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8E9DA41951F58500C78DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9DAD1951F58500C78DAF /* CoreGraphics.framework in Frameworks */,
+				CD8E9DAF1951F58500C78DAF /* UIKit.framework in Frameworks */,
+				CD8E9DAB1951F58500C78DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8E9DC51951F58500C78DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9DCA1951F58500C78DAF /* XCTest.framework in Frameworks */,
+				CD8E9DCC1951F58500C78DAF /* UIKit.framework in Frameworks */,
+				CD8E9DCB1951F58500C78DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8E9D9E1951F58500C78DAF = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DB01951F58500C78DAF /* Pirate Assigment */,
+				CD8E9DCF1951F58500C78DAF /* Pirate AssigmentTests */,
+				CD8E9DA91951F58500C78DAF /* Frameworks */,
+				CD8E9DA81951F58500C78DAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8E9DA81951F58500C78DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DA71951F58500C78DAF /* Pirate Assigment.app */,
+				CD8E9DC81951F58500C78DAF /* Pirate AssigmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8E9DA91951F58500C78DAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DAA1951F58500C78DAF /* Foundation.framework */,
+				CD8E9DAC1951F58500C78DAF /* CoreGraphics.framework */,
+				CD8E9DAE1951F58500C78DAF /* UIKit.framework */,
+				CD8E9DC91951F58500C78DAF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD8E9DB01951F58500C78DAF /* Pirate Assigment */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DB91951F58500C78DAF /* LRMAppDelegate.h */,
+				CD8E9DBA1951F58500C78DAF /* LRMAppDelegate.m */,
+				CD8E9DBC1951F58500C78DAF /* Main.storyboard */,
+				CD8E9DBF1951F58500C78DAF /* LRMViewController.h */,
+				CD8E9DC01951F58500C78DAF /* LRMViewController.m */,
+				CD8E9DC21951F58500C78DAF /* Images.xcassets */,
+				CD8E9DB11951F58500C78DAF /* Supporting Files */,
+			);
+			path = "Pirate Assigment";
+			sourceTree = "<group>";
+		};
+		CD8E9DB11951F58500C78DAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DB21951F58500C78DAF /* Pirate Assigment-Info.plist */,
+				CD8E9DB31951F58500C78DAF /* InfoPlist.strings */,
+				CD8E9DB61951F58500C78DAF /* main.m */,
+				CD8E9DB81951F58500C78DAF /* Pirate Assigment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD8E9DCF1951F58500C78DAF /* Pirate AssigmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DD51951F58500C78DAF /* Pirate_AssigmentTests.m */,
+				CD8E9DD01951F58500C78DAF /* Supporting Files */,
+			);
+			path = "Pirate AssigmentTests";
+			sourceTree = "<group>";
+		};
+		CD8E9DD01951F58500C78DAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD8E9DD11951F58500C78DAF /* Pirate AssigmentTests-Info.plist */,
+				CD8E9DD21951F58500C78DAF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8E9DA61951F58500C78DAF /* Pirate Assigment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8E9DD91951F58500C78DAF /* Build configuration list for PBXNativeTarget "Pirate Assigment" */;
+			buildPhases = (
+				CD8E9DA31951F58500C78DAF /* Sources */,
+				CD8E9DA41951F58500C78DAF /* Frameworks */,
+				CD8E9DA51951F58500C78DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pirate Assigment";
+			productName = "Pirate Assigment";
+			productReference = CD8E9DA71951F58500C78DAF /* Pirate Assigment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8E9DC71951F58500C78DAF /* Pirate AssigmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8E9DDC1951F58500C78DAF /* Build configuration list for PBXNativeTarget "Pirate AssigmentTests" */;
+			buildPhases = (
+				CD8E9DC41951F58500C78DAF /* Sources */,
+				CD8E9DC51951F58500C78DAF /* Frameworks */,
+				CD8E9DC61951F58500C78DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8E9DCE1951F58500C78DAF /* PBXTargetDependency */,
+			);
+			name = "Pirate AssigmentTests";
+			productName = "Pirate AssigmentTests";
+			productReference = CD8E9DC81951F58500C78DAF /* Pirate AssigmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8E9D9F1951F58500C78DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LRM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lucas Maciel";
+				TargetAttributes = {
+					CD8E9DC71951F58500C78DAF = {
+						TestTargetID = CD8E9DA61951F58500C78DAF;
+					};
+				};
+			};
+			buildConfigurationList = CD8E9DA21951F58500C78DAF /* Build configuration list for PBXProject "Pirate Assigment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8E9D9E1951F58500C78DAF;
+			productRefGroup = CD8E9DA81951F58500C78DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8E9DA61951F58500C78DAF /* Pirate Assigment */,
+				CD8E9DC71951F58500C78DAF /* Pirate AssigmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8E9DA51951F58500C78DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9DC31951F58500C78DAF /* Images.xcassets in Resources */,
+				CD8E9DB51951F58500C78DAF /* InfoPlist.strings in Resources */,
+				CD8E9DBE1951F58500C78DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8E9DC61951F58500C78DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9DD41951F58500C78DAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8E9DA31951F58500C78DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9DBB1951F58500C78DAF /* LRMAppDelegate.m in Sources */,
+				CD8E9DB71951F58500C78DAF /* main.m in Sources */,
+				CD8E9DC11951F58500C78DAF /* LRMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8E9DC41951F58500C78DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8E9DD61951F58500C78DAF /* Pirate_AssigmentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8E9DCE1951F58500C78DAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8E9DA61951F58500C78DAF /* Pirate Assigment */;
+			targetProxy = CD8E9DCD1951F58500C78DAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD8E9DB31951F58500C78DAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E9DB41951F58500C78DAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD8E9DBC1951F58500C78DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E9DBD1951F58500C78DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD8E9DD21951F58500C78DAF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD8E9DD31951F58500C78DAF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD8E9DD71951F58500C78DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD8E9DD81951F58500C78DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD8E9DDA1951F58500C78DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Assigment/Pirate Assigment-Prefix.pch";
+				INFOPLIST_FILE = "Pirate Assigment/Pirate Assigment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD8E9DDB1951F58500C78DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Assigment/Pirate Assigment-Prefix.pch";
+				INFOPLIST_FILE = "Pirate Assigment/Pirate Assigment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD8E9DDD1951F58500C78DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pirate Assigment.app/Pirate Assigment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Assigment/Pirate Assigment-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pirate AssigmentTests/Pirate AssigmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD8E9DDE1951F58500C78DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pirate Assigment.app/Pirate Assigment";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pirate Assigment/Pirate Assigment-Prefix.pch";
+				INFOPLIST_FILE = "Pirate AssigmentTests/Pirate AssigmentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8E9DA21951F58500C78DAF /* Build configuration list for PBXProject "Pirate Assigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E9DD71951F58500C78DAF /* Debug */,
+				CD8E9DD81951F58500C78DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8E9DD91951F58500C78DAF /* Build configuration list for PBXNativeTarget "Pirate Assigment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E9DDA1951F58500C78DAF /* Debug */,
+				CD8E9DDB1951F58500C78DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD8E9DDC1951F58500C78DAF /* Build configuration list for PBXNativeTarget "Pirate AssigmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8E9DDD1951F58500C78DAF /* Debug */,
+				CD8E9DDE1951F58500C78DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8E9D9F1951F58500C78DAF /* Project object */;
+}
