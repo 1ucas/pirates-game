@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD188BE2196B54A600406E09 /* Main-35in.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD188BE0196B54A600406E09 /* Main-35in.storyboard */; };
+		CD1E9D9C196C27E60070EE0F /* death.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1E9D9A196C27E60070EE0F /* death.mp3 */; };
+		CD1E9D9D196C27E60070EE0F /* whisper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1E9D9B196C27E60070EE0F /* whisper.mp3 */; };
+		CD1F37C2196B98EA007A31D9 /* light.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CD1F37C1196B98EA007A31D9 /* light.mp3 */; };
+		CD1F37C4196B9BE7007A31D9 /* piratesFirst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD1F37C3196B9BE7007A31D9 /* piratesFirst.jpg */; };
+		CD1F37C7196B9D1D007A31D9 /* LRMFistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1F37C6196B9D1D007A31D9 /* LRMFistViewController.m */; };
+		CD1F37C9196B9EBD007A31D9 /* mainScreenImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1F37C8196B9EBD007A31D9 /* mainScreenImg.png */; };
+		CD1F37CC196BA028007A31D9 /* mapImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1F37CA196BA028007A31D9 /* mapImg.png */; };
+		CD1F37CD196BA028007A31D9 /* actionButtonImg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1F37CB196BA028007A31D9 /* actionButtonImg.png */; };
+		CD3CB5031A52C55B008737E6 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD3CB5021A52C55B008737E6 /* Entitlements.plist */; };
+		CD80A54F196B6B0E00887491 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD80A54E196B6B0E00887491 /* AVFoundation.framework */; };
+		CD80A563196B7B8C00887491 /* Icon-Small3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD80A562196B7B8C00887491 /* Icon-Small3@2x.png */; };
+		CD80A565196B7BAF00887491 /* Icon-Small3.png in Resources */ = {isa = PBXBuildFile; fileRef = CD80A564196B7BAF00887491 /* Icon-Small3.png */; };
 		CD8E9DAB1951F58500C78DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAA1951F58500C78DAF /* Foundation.framework */; };
 		CD8E9DAD1951F58500C78DAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAC1951F58500C78DAF /* CoreGraphics.framework */; };
 		CD8E9DAF1951F58500C78DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAE1951F58500C78DAF /* UIKit.framework */; };
@@ -21,6 +34,22 @@
 		CD8E9DCC1951F58500C78DAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8E9DAE1951F58500C78DAF /* UIKit.framework */; };
 		CD8E9DD41951F58500C78DAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8E9DD21951F58500C78DAF /* InfoPlist.strings */; };
 		CD8E9DD61951F58500C78DAF /* Pirate_AssigmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DD51951F58500C78DAF /* Pirate_AssigmentTests.m */; };
+		CD8E9DE41951F63A00C78DAF /* LRMWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DE31951F63A00C78DAF /* LRMWeapon.m */; };
+		CD8E9DE71951F64800C78DAF /* LRMArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DE61951F64800C78DAF /* LRMArmor.m */; };
+		CD8E9DED1951F9FD00C78DAF /* LRMTile.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DEC1951F9FD00C78DAF /* LRMTile.m */; };
+		CD8E9DF01952166B00C78DAF /* LRMFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DEF1952166B00C78DAF /* LRMFactory.m */; };
+		CD8E9DF31952172800C78DAF /* LRMChar.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8E9DF21952172800C78DAF /* LRMChar.m */; };
+		CDA0AA431954733400DD32CF /* woodBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA411954733400DD32CF /* woodBackground.jpg */; };
+		CDA0AA441954733400DD32CF /* yellowBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA421954733400DD32CF /* yellowBackground.jpg */; };
+		CDA0AA4C1955BEE700DD32CF /* pirates2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA451955BEE700DD32CF /* pirates2.jpg */; };
+		CDA0AA4D1955BEE700DD32CF /* dragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA461955BEE700DD32CF /* dragon.jpg */; };
+		CDA0AA4E1955BEE700DD32CF /* pirates.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA471955BEE700DD32CF /* pirates.png */; };
+		CDA0AA4F1955BEE700DD32CF /* valley3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA481955BEE700DD32CF /* valley3.jpg */; };
+		CDA0AA501955BEE700DD32CF /* valley2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA491955BEE700DD32CF /* valley2.jpg */; };
+		CDA0AA511955BEE700DD32CF /* waterBlue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA4A1955BEE700DD32CF /* waterBlue.jpg */; };
+		CDA0AA521955BEE700DD32CF /* valley1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDA0AA4B1955BEE700DD32CF /* valley1.jpg */; };
+		CDE6F39319A5B4D40028B0EA /* 0801-0123.gif in Resources */ = {isa = PBXBuildFile; fileRef = CDE6F39219A5B4D40028B0EA /* 0801-0123.gif */; };
+		CDECC1D01957CCBC007ED116 /* PASSEI.mov in Resources */ = {isa = PBXBuildFile; fileRef = CDECC1CF1957CCBC007ED116 /* PASSEI.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD188BE1196B54A600406E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main-35in.storyboard"; sourceTree = "<group>"; };
+		CD1E9D9A196C27E60070EE0F /* death.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = death.mp3; sourceTree = "<group>"; };
+		CD1E9D9B196C27E60070EE0F /* whisper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whisper.mp3; sourceTree = "<group>"; };
+		CD1F37C1196B98EA007A31D9 /* light.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = light.mp3; sourceTree = "<group>"; };
+		CD1F37C3196B9BE7007A31D9 /* piratesFirst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piratesFirst.jpg; sourceTree = "<group>"; };
+		CD1F37C5196B9D1D007A31D9 /* LRMFistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMFistViewController.h; sourceTree = "<group>"; };
+		CD1F37C6196B9D1D007A31D9 /* LRMFistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMFistViewController.m; sourceTree = "<group>"; };
+		CD1F37C8196B9EBD007A31D9 /* mainScreenImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainScreenImg.png; sourceTree = "<group>"; };
+		CD1F37CA196BA028007A31D9 /* mapImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapImg.png; sourceTree = "<group>"; };
+		CD1F37CB196BA028007A31D9 /* actionButtonImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = actionButtonImg.png; sourceTree = "<group>"; };
+		CD3CB5021A52C55B008737E6 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		CD80A54E196B6B0E00887491 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CD80A562196B7B8C00887491 /* Icon-Small3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small3@2x.png"; sourceTree = "<group>"; };
+		CD80A564196B7BAF00887491 /* Icon-Small3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small3.png"; sourceTree = "<group>"; };
 		CD8E9DA71951F58500C78DAF /* Pirate Assigment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pirate Assigment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8E9DAA1951F58500C78DAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD8E9DAC1951F58500C78DAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +96,27 @@
 		CD8E9DD11951F58500C78DAF /* Pirate AssigmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pirate AssigmentTests-Info.plist"; sourceTree = "<group>"; };
 		CD8E9DD31951F58500C78DAF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD8E9DD51951F58500C78DAF /* Pirate_AssigmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AssigmentTests.m; sourceTree = "<group>"; };
+		CD8E9DE21951F63A00C78DAF /* LRMWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRMWeapon.h; path = ../LRMWeapon.h; sourceTree = "<group>"; };
+		CD8E9DE31951F63A00C78DAF /* LRMWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LRMWeapon.m; path = ../LRMWeapon.m; sourceTree = "<group>"; };
+		CD8E9DE51951F64800C78DAF /* LRMArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRMArmor.h; path = ../LRMArmor.h; sourceTree = "<group>"; };
+		CD8E9DE61951F64800C78DAF /* LRMArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LRMArmor.m; path = ../LRMArmor.m; sourceTree = "<group>"; };
+		CD8E9DEB1951F9FD00C78DAF /* LRMTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRMTile.h; path = ../LRMTile.h; sourceTree = "<group>"; };
+		CD8E9DEC1951F9FD00C78DAF /* LRMTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LRMTile.m; path = ../LRMTile.m; sourceTree = "<group>"; };
+		CD8E9DEE1952166B00C78DAF /* LRMFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRMFactory.h; path = ../LRMFactory.h; sourceTree = "<group>"; };
+		CD8E9DEF1952166B00C78DAF /* LRMFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LRMFactory.m; path = ../LRMFactory.m; sourceTree = "<group>"; };
+		CD8E9DF11952172800C78DAF /* LRMChar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LRMChar.h; path = ../LRMChar.h; sourceTree = "<group>"; };
+		CD8E9DF21952172800C78DAF /* LRMChar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LRMChar.m; path = ../LRMChar.m; sourceTree = "<group>"; };
+		CDA0AA411954733400DD32CF /* woodBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodBackground.jpg; sourceTree = "<group>"; };
+		CDA0AA421954733400DD32CF /* yellowBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowBackground.jpg; sourceTree = "<group>"; };
+		CDA0AA451955BEE700DD32CF /* pirates2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pirates2.jpg; sourceTree = "<group>"; };
+		CDA0AA461955BEE700DD32CF /* dragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dragon.jpg; sourceTree = "<group>"; };
+		CDA0AA471955BEE700DD32CF /* pirates.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirates.png; sourceTree = "<group>"; };
+		CDA0AA481955BEE700DD32CF /* valley3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valley3.jpg; sourceTree = "<group>"; };
+		CDA0AA491955BEE700DD32CF /* valley2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valley2.jpg; sourceTree = "<group>"; };
+		CDA0AA4A1955BEE700DD32CF /* waterBlue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = waterBlue.jpg; sourceTree = "<group>"; };
+		CDA0AA4B1955BEE700DD32CF /* valley1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = valley1.jpg; sourceTree = "<group>"; };
+		CDE6F39219A5B4D40028B0EA /* 0801-0123.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "0801-0123.gif"; sourceTree = "<group>"; };
+		CDECC1CF1957CCBC007ED116 /* PASSEI.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = PASSEI.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD80A54F196B6B0E00887491 /* AVFoundation.framework in Frameworks */,
 				CD8E9DAD1951F58500C78DAF /* CoreGraphics.framework in Frameworks */,
 				CD8E9DAF1951F58500C78DAF /* UIKit.framework in Frameworks */,
 				CD8E9DAB1951F58500C78DAF /* Foundation.framework in Frameworks */,
@@ -82,6 +147,7 @@
 		CD8E9D9E1951F58500C78DAF = {
 			isa = PBXGroup;
 			children = (
+				CD3CB5021A52C55B008737E6 /* Entitlements.plist */,
 				CD8E9DB01951F58500C78DAF /* Pirate Assigment */,
 				CD8E9DCF1951F58500C78DAF /* Pirate AssigmentTests */,
 				CD8E9DA91951F58500C78DAF /* Frameworks */,
@@ -101,6 +167,7 @@
 		CD8E9DA91951F58500C78DAF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD80A54E196B6B0E00887491 /* AVFoundation.framework */,
 				CD8E9DAA1951F58500C78DAF /* Foundation.framework */,
 				CD8E9DAC1951F58500C78DAF /* CoreGraphics.framework */,
 				CD8E9DAE1951F58500C78DAF /* UIKit.framework */,
@@ -115,9 +182,25 @@
 				CD8E9DB91951F58500C78DAF /* LRMAppDelegate.h */,
 				CD8E9DBA1951F58500C78DAF /* LRMAppDelegate.m */,
 				CD8E9DBC1951F58500C78DAF /* Main.storyboard */,
+				CD188BE0196B54A600406E09 /* Main-35in.storyboard */,
+				CD1F37C5196B9D1D007A31D9 /* LRMFistViewController.h */,
+				CD1F37C6196B9D1D007A31D9 /* LRMFistViewController.m */,
 				CD8E9DBF1951F58500C78DAF /* LRMViewController.h */,
 				CD8E9DC01951F58500C78DAF /* LRMViewController.m */,
+				CD8E9DEE1952166B00C78DAF /* LRMFactory.h */,
+				CD8E9DEF1952166B00C78DAF /* LRMFactory.m */,
+				CD8E9DEB1951F9FD00C78DAF /* LRMTile.h */,
+				CD8E9DEC1951F9FD00C78DAF /* LRMTile.m */,
+				CD8E9DF11952172800C78DAF /* LRMChar.h */,
+				CD8E9DF21952172800C78DAF /* LRMChar.m */,
+				CD8E9DE51951F64800C78DAF /* LRMArmor.h */,
+				CD8E9DE61951F64800C78DAF /* LRMArmor.m */,
+				CD8E9DE21951F63A00C78DAF /* LRMWeapon.h */,
+				CD8E9DE31951F63A00C78DAF /* LRMWeapon.m */,
 				CD8E9DC21951F58500C78DAF /* Images.xcassets */,
+				CD80A562196B7B8C00887491 /* Icon-Small3@2x.png */,
+				CD80A564196B7BAF00887491 /* Icon-Small3.png */,
+				CDE6F39219A5B4D40028B0EA /* 0801-0123.gif */,
 				CD8E9DB11951F58500C78DAF /* Supporting Files */,
 			);
 			path = "Pirate Assigment";
@@ -126,6 +209,23 @@
 		CD8E9DB11951F58500C78DAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CD1F37C1196B98EA007A31D9 /* light.mp3 */,
+				CD1E9D9B196C27E60070EE0F /* whisper.mp3 */,
+				CDECC1CF1957CCBC007ED116 /* PASSEI.mov */,
+				CD1F37C8196B9EBD007A31D9 /* mainScreenImg.png */,
+				CD1F37CA196BA028007A31D9 /* mapImg.png */,
+				CD1F37CB196BA028007A31D9 /* actionButtonImg.png */,
+				CD1F37C3196B9BE7007A31D9 /* piratesFirst.jpg */,
+				CDA0AA451955BEE700DD32CF /* pirates2.jpg */,
+				CDA0AA461955BEE700DD32CF /* dragon.jpg */,
+				CDA0AA471955BEE700DD32CF /* pirates.png */,
+				CDA0AA481955BEE700DD32CF /* valley3.jpg */,
+				CDA0AA491955BEE700DD32CF /* valley2.jpg */,
+				CDA0AA4A1955BEE700DD32CF /* waterBlue.jpg */,
+				CDA0AA4B1955BEE700DD32CF /* valley1.jpg */,
+				CDA0AA411954733400DD32CF /* woodBackground.jpg */,
+				CDA0AA421954733400DD32CF /* yellowBackground.jpg */,
+				CD1E9D9A196C27E60070EE0F /* death.mp3 */,
 				CD8E9DB21951F58500C78DAF /* Pirate Assigment-Info.plist */,
 				CD8E9DB31951F58500C78DAF /* InfoPlist.strings */,
 				CD8E9DB61951F58500C78DAF /* main.m */,
@@ -229,9 +329,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1F37CC196BA028007A31D9 /* mapImg.png in Resources */,
 				CD8E9DC31951F58500C78DAF /* Images.xcassets in Resources */,
+				CDA0AA501955BEE700DD32CF /* valley2.jpg in Resources */,
 				CD8E9DB51951F58500C78DAF /* InfoPlist.strings in Resources */,
+				CD80A565196B7BAF00887491 /* Icon-Small3.png in Resources */,
+				CDA0AA511955BEE700DD32CF /* waterBlue.jpg in Resources */,
+				CDA0AA521955BEE700DD32CF /* valley1.jpg in Resources */,
+				CDA0AA431954733400DD32CF /* woodBackground.jpg in Resources */,
+				CDA0AA4C1955BEE700DD32CF /* pirates2.jpg in Resources */,
+				CD1F37C4196B9BE7007A31D9 /* piratesFirst.jpg in Resources */,
+				CDA0AA4F1955BEE700DD32CF /* valley3.jpg in Resources */,
+				CDA0AA441954733400DD32CF /* yellowBackground.jpg in Resources */,
+				CDA0AA4D1955BEE700DD32CF /* dragon.jpg in Resources */,
+				CD1E9D9D196C27E60070EE0F /* whisper.mp3 in Resources */,
+				CDA0AA4E1955BEE700DD32CF /* pirates.png in Resources */,
+				CD80A563196B7B8C00887491 /* Icon-Small3@2x.png in Resources */,
 				CD8E9DBE1951F58500C78DAF /* Main.storyboard in Resources */,
+				CD1F37CD196BA028007A31D9 /* actionButtonImg.png in Resources */,
+				CDE6F39319A5B4D40028B0EA /* 0801-0123.gif in Resources */,
+				CD188BE2196B54A600406E09 /* Main-35in.storyboard in Resources */,
+				CD1F37C9196B9EBD007A31D9 /* mainScreenImg.png in Resources */,
+				CDECC1D01957CCBC007ED116 /* PASSEI.mov in Resources */,
+				CD1F37C2196B98EA007A31D9 /* light.mp3 in Resources */,
+				CD3CB5031A52C55B008737E6 /* Entitlements.plist in Resources */,
+				CD1E9D9C196C27E60070EE0F /* death.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +372,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8E9DF31952172800C78DAF /* LRMChar.m in Sources */,
 				CD8E9DBB1951F58500C78DAF /* LRMAppDelegate.m in Sources */,
+				CD1F37C7196B9D1D007A31D9 /* LRMFistViewController.m in Sources */,
 				CD8E9DB71951F58500C78DAF /* main.m in Sources */,
+				CD8E9DF01952166B00C78DAF /* LRMFactory.m in Sources */,
+				CD8E9DE71951F64800C78DAF /* LRMArmor.m in Sources */,
 				CD8E9DC11951F58500C78DAF /* LRMViewController.m in Sources */,
+				CD8E9DED1951F9FD00C78DAF /* LRMTile.m in Sources */,
+				CD8E9DE41951F63A00C78DAF /* LRMWeapon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +403,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CD188BE0196B54A600406E09 /* Main-35in.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD188BE1196B54A600406E09 /* Base */,
+			);
+			name = "Main-35in.storyboard";
+			sourceTree = "<group>";
+		};
 		CD8E9DB31951F58500C78DAF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -375,12 +511,17 @@
 		CD8E9DDA1951F58500C78DAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pirate Assigment/Pirate Assigment-Prefix.pch";
 				INFOPLIST_FILE = "Pirate Assigment/Pirate Assigment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -388,12 +529,17 @@
 		CD8E9DDB1951F58500C78DAF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "-";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pirate Assigment/Pirate Assigment-Prefix.pch";
 				INFOPLIST_FILE = "Pirate Assigment/Pirate Assigment-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -457,6 +603,7 @@
 				CD8E9DDB1951F58500C78DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD8E9DDC1951F58500C78DAF /* Build configuration list for PBXNativeTarget "Pirate AssigmentTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +612,7 @@
 				CD8E9DDE1951F58500C78DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

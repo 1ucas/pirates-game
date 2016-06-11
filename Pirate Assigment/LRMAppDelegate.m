@@ -10,11 +10,18 @@
 
 @implementation LRMAppDelegate
 
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UIStoryboard *storyboard = [self grabStoryboard];
+    
+    // show the storyboard
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -42,5 +49,26 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (UIStoryboard *)grabStoryboard {
+    
+    UIStoryboard *storyboard;
+    
+    // detect the height of our screen
+    int height = [UIScreen mainScreen].bounds.size.height;
+    
+    if (height == 480) {
+        storyboard = [UIStoryboard storyboardWithName:@"Main-35in" bundle:nil];
+        // NSLog(@"Device has a 3.5inch Display.");
+    } else {
+        storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        // NSLog(@"Device has a 4inch Display.");
+    }
+    
+    return storyboard;
+}
+
+
+
 
 @end
