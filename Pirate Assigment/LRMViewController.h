@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "LRMFactory.h"
 #import <UIKit/UIKit.h>
+#import <AVKit/AVKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import <AVFoundation/AVFoundation.h>
 
@@ -58,7 +59,7 @@
 
 @property (nonatomic) int bossDamage;
 
-@property (strong, nonatomic) MPMoviePlayerViewController *moviePlayer;
+@property (strong, nonatomic) AVPlayerViewController *moviePlayer;
 
 - (IBAction)playMovie:(id)sender;
 

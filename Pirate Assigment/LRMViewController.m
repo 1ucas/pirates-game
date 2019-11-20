@@ -235,15 +235,13 @@
     [audioPlayer1 stop];
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"PASSEI" ofType:@"mov"]];
     if(url !=nil){
-        self.moviePlayer =  [[MPMoviePlayerViewController alloc] initWithContentURL:url];
-    
-        self.moviePlayer = [[MPMoviePlayerViewController alloc]
-                        initWithContentURL:url];
-        [self presentMoviePlayerViewControllerAnimated:self.moviePlayer];
-    
-        self.moviePlayer.moviePlayer.movieSourceType = MPMovieSourceTypeFile;
         
-        [self.moviePlayer.moviePlayer play];
+        AVPlayer *player = [AVPlayer playerWithURL:url];
+        AVPlayerViewController *playerViewController = [AVPlayerViewController new];
+        playerViewController.player = player;
+        [self presentViewController:playerViewController animated:YES completion:^{
+          [playerViewController.player play];
+        }];
     }
     else NSLog(@"URL NÃO ENCONTRADA");
 }
